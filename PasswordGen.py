@@ -19,9 +19,10 @@ if a == 'y':
     x = 2
     while x > 1:
         print(generate_password())
-        x2 = input("One more? 2=yes 1=no: ")
-        x = int(x2)
+        x2 = input("One more? y/n: ")
+        x2 = a
     else:
         print('bye')
 else:
     print('bye')
+
