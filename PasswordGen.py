@@ -20,9 +20,9 @@ if a == 'y':
     while x > 1:
         print(generate_password())
         x2 = input("One more? y/n: ")
-        x2 = a
+        if x2 == "n":
+            x = 1
     else:
         print('bye')
 else:
     print('bye')
-
